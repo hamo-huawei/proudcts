@@ -1,0 +1,129 @@
+ /* main-color: color: #380645;  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: #e0d1d1;
+}
+.container{
+    width: 95%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 50px;
+    min-height: 400px
+}
+
+.star-width{
+    width: 20px
+}
+
+.part-1{
+    display: flex;
+    justify-content: space-between;
+}
+.part-1 .text{
+
+width: 35%
+}
+.part-1 .text h1{
+    text-transform: capitalize;
+    font-size: 37px;
+    color: #380645;
+}
+.part-1 .text p{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #7d6969;
+}
+.cells{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cells .cel{
+    background-color: #ff000030;
+    padding: 10px;
+    display: flex;
+    gap: 33px;
+    font-variant: small-caps;
+    color: #380645;
+    border-radius: 10px;
+}
+.cells .cel-1{
+    transform: translateX(-40px);
+    transition: 0.4s;
+}
+.cells .cel-2{
+    transform: translateX(-20px);
+    transition: 0.4s;
+}
+.cells .cel-1:hover{
+    transform: translateX(0px)
+}
+.cells .cel-2:hover{
+    transform: translateX(0px)
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+   
+}
+.cards .card{
+    background-color: #380645;
+    padding: 15px;
+    width: calc(100% - 70%);
+    border-radius: 18px;
+    box-shadow: 0px 0px 5px 4px #bb42ed;
+    transition: all 0.4s;
+}
+.cards .card:hover{
+    box-shadow: 0px 0px 13px 7px #bb42ed;
+}
+
+.card q{
+    color: white;
+    margin-top: 18px;
+    display: block;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+.card .img-ex .text-img h1{
+    font-size: 18px
+}
+.text-img h1:first-child{
+    color: white;
+}
+.text-img h1:nth-child(2){
+    color: #df20af;
+}
+
+.card .img-ex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.img-ex img{
+    border-radius: 50%;
+}
+.cards .card-2{
+    transform: translateY(20px);
+    transition: all 0.3s;
+}
+.cards .card-2:hover{
+    transform: translateY(0px)
+}
+.cards .card-3{
+    transform: translateY(40px);
+    transition: all 0.3s;
+
+}
+.cards .card-3:hover{
+    transform: translateY(0px)
+}
